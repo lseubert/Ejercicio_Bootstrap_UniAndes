@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  hyphens: manual;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: white;
+}
+
+body {
+  position: relative;
+}
+
+.banner,
+.footer {
+  background: brown;
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+}
+
+.odd {
+  background: crimson;
+  text-align: center;
+  height: 3rem;
+}
+
+.even {
+  background: turquoise;
+  text-align: center;
+  height: 3rem;
+}
+
+.topMenu {
+  background: rgb(136, 102, 38);
+  color: #fff;
+  text-align: center;
+}
+.leftMenu {
+  background: orange;
+  text-align: center;
+}
+
+.mainContent {
+  padding: 1rem;
+}

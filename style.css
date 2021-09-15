@@ -23,38 +23,38 @@ html {
 
 body {
   position: relative;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 .banner,
 .footer {
-  background: brown;
-  text-align: center;
+  background: rgb(90, 66, 44);
   color: #fff;
   padding: 1rem;
 }
 
 .odd {
   background: crimson;
-  text-align: center;
   height: 3rem;
 }
 
 .even {
   background: turquoise;
-  text-align: center;
   height: 3rem;
 }
 
 .topMenu {
   background: rgb(136, 102, 38);
   color: #fff;
-  text-align: center;
 }
 .leftMenu {
   background: orange;
-  text-align: center;
 }
 
 .mainContent {
   padding: 1rem;
+  font-weight: 400;
+  text-align: left;
 }
